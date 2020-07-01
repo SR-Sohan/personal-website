@@ -81,6 +81,7 @@ section{
 .single-img{
     width: 25%;
     float: left;
+    padding-left: 5%;
 }
 .client-area{
     background-image: url(images/footer-bg.png);
