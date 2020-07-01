@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 40px;
+    color: #202428;
+}
+P{
+    color: #949494;
+    text-align: justify;
+}
+img{
+    width: 100%;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.header-area{
+    background-image: url("images/header-bg.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 155px;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    padding-left: 2%;
+}
+.header-left{
+    margin-left: 20%;
+}
+.name-color{
+    font-size: 50px;
+    color: #EC4C7A;
+}
+.hire-me{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg,#EC5197,#ED4B71);
+    transition: .7s;
+}
+.hire-me:hover{
+    background-image: linear-gradient(45deg,#0AF0C6,#389AF5);
+}
+.hire-me:focus{
+    background-image: linear-gradient(45deg,#389AF5,#0AF0C6);
+}
+.biography-part{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+.bio-left{
+    padding-left: 7%;
+    margin-left: 2%;
+}
+.latest-work-part{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.sec-header{
+    text-align: center;
+    color: #323539;
+    font-size: 40px;
+    padding: 50px 0;
+}
+.latest-let{
+    padding-left: 13%;
+}
+.single-img{
+    width: 25%;
+    float: left;
+}
+.client-area{
+    background-image: url(images/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    text-align: center;
+}
+.client-name{
+    padding-top: 30px;
+}
+.client-name h4{
+    color: #202428;
+    font-size: 20px;
+}
+.client-name h5{
+    color: #707070;
+    font-size: 12px;
+}
+ .client-name p{
+    text-align: center;
+} 
+.contact-sec{
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px 0;
+    background-image: linear-gradient(45deg,#EC5197,#ED4B6F);
+    border-radius: 10px;
+}
+.contact-sec h4{
+    color: #fff;
+    font-size: 12px;
+}
+.contact-sec p{
+    color: #fff;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    margin: 30px 0;
+    color: #ABABAB;
+}
